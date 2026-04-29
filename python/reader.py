@@ -33,3 +33,4 @@ response = client.chat.completions.create(
 # 5. 打印最终结果
 print("🤖 暴躁总编：")
 print(response.choices[0].message.content)
+1
